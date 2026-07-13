@@ -6,7 +6,7 @@ galleries, ability to start in Hard Mode) on an existing save file, without
 requiring GBA link cables or beating the game.<br>
 It should not mess with your game progress.
 
-Live tool: https://robzan8.github.io/prime-unlock/
+Live tool: https://robzan8.github.io/fusion-suit-unlocker/
 
 ## How it works
 
