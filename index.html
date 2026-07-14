@@ -1,13 +1,22 @@
 <title>Fusion Suit Unlocker for Metroid Prime</title>
 
 <style>
-body {
-    padding: 15px 10%;
+html, body {
+    margin: 0;
+    background-color: #e6e46e;
+}
+.blue, .yellow {
+    padding: 10px 10%;
+}
+.blue {
+    background-color: #04b9c6;
 }
 h1 {
-    color: #0191c9;
+    color: #c6282e;
 }
 </style>
+
+<div class="blue">
 
 <h1>Fusion Suit Unlocker for Metroid Prime</h1>
 
@@ -48,7 +57,8 @@ See <a href="https://github.com/robzan8/fusion-suit-unlocker">the github repo</a
 for details on how the patch works.
 </p>
 
-<hr>
+</div>
+<div class="yellow">
 
 <p>
 <label>Select .gci file: <input type="file" id="fileInput" accept=".gci"></label>
@@ -62,6 +72,8 @@ for details on how the patch works.
 </p>
 
 <pre id="log"></pre>
+
+</div>
 
 <script>
 var UNLOCK_OFFSET = 0x152D;
